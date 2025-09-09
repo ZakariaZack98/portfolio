@@ -1,4 +1,5 @@
 import Hero from "@/components/home/Hero";
+import Projects from "@/components/home/Projects";
 import Stack from "@/components/home/Stack";
 
 export default function Home() {
@@ -6,6 +7,7 @@ export default function Home() {
     <>
       <Hero/>
       <Stack/>
+      <Projects/>
     </>
   );
 }

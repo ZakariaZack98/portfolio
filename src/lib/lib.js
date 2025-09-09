@@ -123,5 +123,64 @@ _.techStackDetails = [
   },
 ]
 
+_.projectDetails = [
+  {
+    name: 'Forecastly',
+    slug: 'forecastly',
+    stack: ['tailwindcss', 'react.js', 'redux-toolkit', 'chart.js', 'leaflet', 'openweathermap api', 'openstreetmap api'],
+    desc: `An information-rich weather portal with detailed data visualization developed with React.js with OpenWeatherAPI & OpenStreetMapAPI integration & styled with TailwindCSS. Datavisualization done by Chart.js.`,
+    points: [
+      `User interactive forecast dashboard featuring daily and hourly forecast with detailed data visualization (temperature, humidity, wind speed, pressure etc.)`,
+      `An user-interactive multi-layer GPS based weather map`,
+      `Provides useful suggestion for users analyzing current weather trends`
+    ],
+    thumbnail: '/images/projects/forecastly-thumb.png',
+    live: 'https://react-weather-app-eight-weld.vercel.app/',
+    source: 'https://github.com/ZakariaZack98/forecastly.git'
+  },
+  {
+    name: 'TaskFlow',
+    slug: 'taskflow',
+    stack: ['tailwindcss', 'react.js', 'firebase', 'firebase realtime database'],
+    desc: `An user-friendly feature-rich task management app built for smooth workflow and seamless productivity.`,
+    points: [
+      `User-friendly dual mode task management dashboard`,
+      `Feature-rich task management system including- priority flags, categorization, quick-reschedule, sub-task checklists, custom reminder, and commenting on task progress`,
+      `Notification system based on user activity`
+    ],
+    thumbnail: '/images/projects/taskflow-thumb.png',
+    live: 'https://task-flow-one-nu.vercel.app/',
+    source: 'https://github.com/ZakariaZack98/TaskFlow.git'
+  },
+  {
+    name: 'Awaaz',
+    slug: 'awaaz',
+    stack: ['tailwindcss', 'react.js', 'redux-toolkit', 'firebase', 'firebase realtime database'],
+    desc: `An Instagram-inspired social media web application. Database designed with performance and scalability in mind.`,
+    points: [
+      `Smooth interaction features including reactions, comments, replies, followers, following and blocking users`,
+      `Custom algorithm for personalized newsfeed and explore page`,
+      `Notification system based on user interaction`
+    ],
+    thumbnail: '/images/projects/awaaz-thumb.png',
+    live: 'hhttps://awaaz-nine.vercel.app/',
+    source: 'https://github.com/ZakariaZack98/Awaaz.git'
+  },
+  {
+    name: `C'encia Skincare`,
+    slug: 'cencia-skincare',
+    stack: ['tailwindcss', 'react.js', 'redux-toolkit'],
+    desc: `An e-commerce website for a bootique skincare brand`,
+    points: [
+      `User friendly attractive UI`,
+      `Smooth cart management system`,
+      `All device friendly responsive UI`
+    ],
+    thumbnail: '/images/projects/cencia-thumb.png',
+    live: 'hhttps://cencia-skincare.vercel.app/',
+    source: 'https://github.com/ZakariaZack98/cencia_skincare.git'
+  },
+]
+
 
 export default _
