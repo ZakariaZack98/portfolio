@@ -1,7 +1,6 @@
 import Link from "next/link";
 import React from "react";
 import { FiArrowUpRight } from "react-icons/fi";
-import GradientButton from "./GradientButton";
 
 const ProjectThumbnail = ({ name, img, stack, slug }) => {
   return (
@@ -17,7 +16,7 @@ const ProjectThumbnail = ({ name, img, stack, slug }) => {
       <div className="flex justify-between items-start">
         <div className="stack flex items-center flex-wrap gap-2">
           {stack?.map((tech) => (
-            <span className="px-3 py-1 rounded border border-[#8a8a8a] bg-[rgba(255,255,255,0.1)]">{tech}</span>
+            <span key={tech} className="px-3 py-1 rounded border border-[#8a8a8a] bg-[rgba(255,255,255,0.1)]">{tech}</span>
           ))}
         </div>
         <Link href={`/project/${slug}`}>

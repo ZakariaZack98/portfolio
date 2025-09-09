@@ -169,7 +169,7 @@ _.projectDetails = [
   {
     name: `C'encia Skincare`,
     slug: 'cencia-skincare',
-    stack: ['tailwindcss', 'react.js', 'redux-toolkit'],
+    stack: ['tailwindcss', 'react.js', 'redux-toolkit', 'framer-motion'],
     desc: `An e-commerce website for a bootique skincare brand`,
     points: [
       `User friendly attractive UI`,

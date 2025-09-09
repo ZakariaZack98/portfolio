@@ -15,7 +15,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${ralwayFont.className} antialiased `}>
-        <div className="bgLayer w-screen h-screen overflow-auto bg-center bg-cover">
+        <div className="bgLayer w-screen h-screen overflow-auto bg-center bg-cover overflow-x-hidden">
           <div className="grad-overlay text-white">
             <Navbar />
             {children}
