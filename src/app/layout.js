@@ -1,6 +1,6 @@
 import { Raleway } from "next/font/google";
 import "./globals.css";
-
+import Navbar from "@/components/common/Navbar";
 
 export const metadata = {
   title: "Create Next App",
@@ -9,15 +9,20 @@ export const metadata = {
 
 const ralwayFont = Raleway({
   subsets: ["latin"],
-})
+});
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body
-        className={`${ralwayFont.className} antialiased`}
-      >
-        {children}
+      <body className={`${ralwayFont.className} antialiased `}>
+        <div className="bgLayer w-screen h-screen overflow-auto bg-center bg-cover">
+          <div className="grad-overlay text-white">
+            <Navbar />
+            <div className="container mx-auto ">
+              {children}
+            </div>
+          </div>
+        </div>
       </body>
     </html>
   );

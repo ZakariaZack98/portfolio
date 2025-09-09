@@ -1,7 +1,11 @@
-import Image from "next/image";
+import Hero from "@/components/home/Hero";
+import Stack from "@/components/home/Stack";
 
 export default function Home() {
   return (
-    <p className="bg-red-500">This is a paragraph</p>
+    <>
+      <Hero/>
+      <Stack/>
+    </>
   );
 }
