@@ -18,9 +18,7 @@ export default function RootLayout({ children }) {
         <div className="bgLayer w-screen h-screen overflow-auto bg-center bg-cover">
           <div className="grad-overlay text-white">
             <Navbar />
-            <div className="container mx-auto ">
-              {children}
-            </div>
+            {children}
           </div>
         </div>
       </body>
