@@ -19,7 +19,7 @@ const ProjectThumbnail = ({ name, img, stack, slug }) => {
             <span key={tech} className="px-3 py-1 rounded border border-[#8a8a8a] bg-[rgba(255,255,255,0.1)]">{tech}</span>
           ))}
         </div>
-        <Link href={`/project/${slug}`}>
+        <Link href={`/projects/${slug}`}>
           <span className="bg-blue-500 rounded-lg flex justify-center items-center text-6xl">
             <FiArrowUpRight />
           </span>

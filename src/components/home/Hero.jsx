@@ -2,6 +2,7 @@ import React from "react";
 import GradientButton from "../common/GradientButton";
 import SoftButton from "../common/SoftButton";
 import Link from "next/link";
+import { PiMapPinAreaFill } from "react-icons/pi";
 
 const Hero = () => {
   return (
@@ -10,10 +11,13 @@ const Hero = () => {
         <div className="title flex flex-col items-center lg:items-start">
           <h1 className="font-black text-6xl text-white">Frontend</h1>
           <h1 className="font-black text-6xl text-blue-500">Developer.</h1>
+          <div className="flex items-center my-2 gap-x-2">
+            <span className="text-xl text-blue-500"><PiMapPinAreaFill /></span> <span className="font-semibold">Based in Bangladesh</span>
+          </div>
         </div>
         <p className="intro lg:text-xl text-base lg:max-w-full lg:text-start text-center max-w-9/10 mx-auto lg:mx-0">I create intuitive, visually stunning and highly functional web applications.</p>
         <div className="btnGrp flex gap-x-5">
-          <Link href={'/portfolio'}>
+          <Link href={'/projects'}>
             <GradientButton label={'See my work >'}/>
           </Link>
           <Link href={'/CV.pdf'} download={'CV.pdf'} target="_blank" rel="noopener norefferer">
