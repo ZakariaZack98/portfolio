@@ -15,12 +15,13 @@ const ProjectPage = async ({ params }) => {
   const { slug } = await params;
   const project = projectsData.find((project) => project.slug === slug);
   return (
-    <div>
-      <div className=" container mx-auto my-25">
+    <div className="bgLayer bg-contain bg-center">
+      <div className="grad-overlay">
+        <div className=" container mx-auto py-25">
         <div className="flex flex-col items-center gap-5">
-          <h1 className="md:text-6xl text-4xl font-black text-center">{project.name}</h1>
-          <h5 className="text-xl text-center w-9/10 mx-auto">{project.desc}</h5>
-          <div className="flex items-center gap-5">
+          <h1 className="md:text-6xl text-4xl font-black text-center" data-aos='fade-up' data-aos-duration='400' >{project.name}</h1>
+          <h5 className="text-xl text-center w-9/10 mx-auto" data-aos='fade-up' data-aos-duration='400' data-aos-delay='400'>{project.desc}</h5>
+          <div className="flex items-center gap-5" data-aos='zoom-in' data-aos-duration='400' data-aos-delay='800'>
             <Link href={project.live} target="_blank">
               <GradientButton label={"View live"} />
             </Link>
@@ -36,7 +37,7 @@ const ProjectPage = async ({ params }) => {
           </div>
         </div>
         <picture>
-          <img src={project.thumbnail} alt="project thumbnail picture" className="my-20 w-9/10 rounded-2xl mx-auto" />
+          <img src={project.thumbnail} alt="project thumbnail picture" className="my-20 w-9/10 rounded-2xl mx-auto" data-aos='zoom-out' data-aos-duration='400' data-aos-delay='800'/>
         </picture>
         <div className="flex flex-wrap justify-center items-center gap-2 mb-20 max-w-9/10 mx-auto">
           {project.stack?.map((tech) => (
@@ -55,6 +56,7 @@ const ProjectPage = async ({ params }) => {
             }
           </ul>
         </div>
+      </div>
       </div>
     </div>
   );
