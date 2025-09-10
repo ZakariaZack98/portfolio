@@ -10,7 +10,7 @@ const Stack = () => {
     <div className=" bg-black">
       <div className="container mx-auto flex flex-col gap-y-5 lg:py-20 py-8">
         <h3 className="text-5xl font-bold lg:text-start text-center">Current Technologies</h3>
-        <p className="lg:max-w-6/10 text-sm xxl:text-base lg:text-start text-center">
+        <p className="lg:max-w-6/10 w-8/10 mx-auto lg:mx-0 text-sm xxl:text-base lg:text-start text-center">
           I'm proficient in a range of modern technologies that empower me to build highly functional solutions. These
           are some of my main technologies.
         </p>
