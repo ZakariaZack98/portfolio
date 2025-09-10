@@ -153,9 +153,10 @@ _.projectDetails = [
     ],
     desc: `An information-rich weather portal with detailed data visualization developed with React.js with OpenWeatherAPI & OpenStreetMapAPI integration & styled with TailwindCSS. Datavisualization done by Chart.js.`,
     features: [
-      `User interactive forecast dashboard featuring daily and hourly forecast with detailed data visualization (temperature, humidity, wind speed, pressure etc.)`,
-      `An user-interactive multi-layer GPS based weather map`,
-      `Provides useful suggestion for users analyzing current weather trends`,
+      `Created an user-interactive forecast dashboard featuring daily and hourly forecast with detailed data visualization`,
+      `Forecast dashboard features multi-metric data (temperature, humidity, wind speed, pressure etc.)`,
+      `Implemented an user-interactive multi-layer GPS based weather map with Leaflet.js, OpenStreetMap API and OpenWeatherMap API`,
+      `App Provides useful suggestion for users analyzing current weather trends`,
     ],
     thumbnail: "/images/projects/forecastly-thumb.png",
     live: "https://react-weather-app-eight-weld.vercel.app/",
@@ -167,9 +168,10 @@ _.projectDetails = [
     stack: ["tailwindcss", "react.js", "firebase", "firebase realtime database", "cloudinary api"],
     desc: `An user-friendly feature-rich task management app built for smooth workflow and seamless productivity.`,
     features: [
-      `User-friendly dual mode task management dashboard`,
-      `Feature-rich task management system including- priority flags, categorization, quick-reschedule, sub-task checklists, custom reminder, and commenting on task progress`,
-      `Notification system based on user activity`,
+      `Created an user-friendly dual mode task management dashboard`,
+      `Created feature-rich task management system including- priority flags, categorization, quick-reschedule, sub-task checklists, custom reminder, and commenting on task progress`,
+      `Implemented a notification system based on user activity`,
+      `Working on team collaboration features.`
     ],
     thumbnail: "/images/projects/taskflow-thumb.png",
     live: "https://task-flow-one-nu.vercel.app/",
@@ -181,9 +183,11 @@ _.projectDetails = [
     stack: ["tailwindcss", "react.js", "redux-toolkit", "firebase", "firebase realtime database", "cloudinary api"],
     desc: `An Instagram-inspired social media web application. Database designed with performance and scalability in mind.`,
     features: [
-      `Smooth interaction features including reactions, comments, replies, followers, following and blocking users`,
-      `Custom algorithm for personalized newsfeed and explore page`,
-      `Notification system based on user interaction`,
+      `Built smooth interaction features including reactions, comments, replies, followers, following and blocking users`,
+      `Implemented custom algorithm for personalized newsfeed and explore page`,
+      `Created a notification system based on user interaction`,
+      `Designed the database with performance and scalability in mind`,
+      `Working on real time chatting features`
     ],
     thumbnail: "/images/projects/awaaz-thumb.png",
     live: "hhttps://awaaz-nine.vercel.app/",
@@ -194,7 +198,11 @@ _.projectDetails = [
     slug: "cencia-skincare",
     stack: ["tailwindcss", "react.js", "redux-toolkit", "framer-motion"],
     desc: `An e-commerce website for a bootique skincare brand`,
-    features: [`User friendly attractive UI`, `Smooth cart management system`, `All device friendly responsive UI`],
+    features: [
+      `Created an user-friendly attractive UI with framer-motion and AOS animations`, 
+      `Implemented a robust cart management system`, 
+      `All device friendly responsive UI`
+    ],
     thumbnail: "/images/projects/cencia-thumb.png",
     live: "https://cencia-skincare.vercel.app/",
     source: "https://github.com/ZakariaZack98/cencia_skincare.git",
@@ -204,7 +212,12 @@ _.projectDetails = [
     slug: "firbase-chat",
     stack: ["tailwindcss", "react.js", "firebase", "firebase realtime database", "cloudinary api"],
     desc: `A full-stack realtime chatting web-application built with react.js & firebase.` ,
-    features: [`Smooth user interaction system for navigating tracks and playlist`, `Plays all audio format`, `Custom/favorite playlist creation`, `theme switching`],
+    features: [
+      `Implemented secure login with Firebase Auth`,
+      `Real time user-user and user-group chatting`,
+      `Implemented friend/unfried/blocking features`,
+      `Implemented messaging with pictures and emojis`
+    ],
     thumbnail: "/images/projects/chat-thumb.png",
     live: "https://zakariazack98.github.io/Music_Player/",
     source: "https://github.com/ZakariaZack98/cit-chat-app.git",
@@ -214,7 +227,13 @@ _.projectDetails = [
     slug: "music-player",
     stack: ["bootstrap", "vanilla JS", "jsmediatag"],
     desc: `A smartphone-like music player web-app`,
-    features: [`Smooth user interaction system for navigating tracks and playlist`, `Plays all audio format`, `Custom/favorite playlist creation`, `theme switching`],
+    features: [
+      `Created smooth user interaction system for navigating tracks and playlist`, 
+      `Player skin color changes based on track album art`,
+      `Plays all audio format`, 
+      `Custom/favorite playlist creation`, 
+      `Added some built in themes for the app`
+    ],
     thumbnail: "/images/projects/music-player-thumb.png",
     live: "https://zakariazack98.github.io/Music_Player/",
     source: "https://github.com/ZakariaZack98/Music_Player.git",

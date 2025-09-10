@@ -21,6 +21,7 @@ export default function RootLayout({ children }) {
             <Navbar />
             {children}
             <Footer/>
+            <div className="spacing h-10 bg-black"></div>
           </div>
         </div>
       </body>

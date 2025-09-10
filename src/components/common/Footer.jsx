@@ -8,9 +8,9 @@ const Footer = () => {
   const footerLinks = _.footerLinkGroup;
 
   return (
-    <div className='footer container mx-auto border border-[rgba(255,255,255,0.38)] rounded-2xl pb-10'>
+    <div className='footer  mx-auto border border-[rgba(255,255,255,0.38)] rounded-2xl pb-10 w-19/20 md:container'>
       <div className="top flex flex-col lg:items-start items-center gap-y-5 border-b border-[rgba(255,255,255,0.38)] p-10">
-        <h1 className='text-4xl md:text-5xl font-bold lg:max-w-6/10 max-w-full text-center lg:text-start leading-10 lg:leading-14'>Like what you see? Reach out <u className='text-blue-500 cursor-pointer'>via email</u> to collaborate </h1>
+        <h1 className='text-4xl md:text-5xl font-bold lg:max-w-6/10 max-w-full text-center lg:text-start leading-12 lg:leading-14'>Like what you see? Reach out <u className='text-blue-500 cursor-pointer'>via email</u> to collaborate </h1>
         <Link href={'/contact'}>
           <GradientButton label={'Schedule Call'}/>
         </Link>
@@ -27,7 +27,7 @@ const Footer = () => {
                 <h5 className='text-lg font-semibold'>{group.name}</h5>
                 {
                   group.links?.map(link => (
-                    <Link key={link.label} href={link.path} target={link.path.startsWith('https://') ? '_blank' : '_self'} className='opacity-70 text-sm md:text-base hover:text-blue-500'>{link.label}</Link>
+                    <Link key={link.label} href={link.path} target={link.path.startsWith('https://') ? '_blank' : '_self'} className='opacity-70 text-sm md:text-base text-end hover:text-blue-500'>{link.label}</Link>
                   ))
                 }
               </div>
