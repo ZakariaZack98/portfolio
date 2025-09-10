@@ -1,7 +1,7 @@
 import Stack from "@/components/home/Stack";
 import React from "react";
 
-const page = () => {
+const About = () => {
   return (
     <div>
       <div className="lg:h-screen h-fit my-30 lg:my-0 container mx-auto flex lg:flex-row flex-col justify-between gap-x-10 items-center gap-y-10 lg:gap-y-0">
@@ -38,4 +38,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default About;

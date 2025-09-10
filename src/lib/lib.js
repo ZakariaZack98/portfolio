@@ -152,7 +152,7 @@ _.projectDetails = [
       "openstreetmap api",
     ],
     desc: `An information-rich weather portal with detailed data visualization developed with React.js with OpenWeatherAPI & OpenStreetMapAPI integration & styled with TailwindCSS. Datavisualization done by Chart.js.`,
-    points: [
+    features: [
       `User interactive forecast dashboard featuring daily and hourly forecast with detailed data visualization (temperature, humidity, wind speed, pressure etc.)`,
       `An user-interactive multi-layer GPS based weather map`,
       `Provides useful suggestion for users analyzing current weather trends`,
@@ -164,9 +164,9 @@ _.projectDetails = [
   {
     name: "TaskFlow",
     slug: "taskflow",
-    stack: ["tailwindcss", "react.js", "firebase", "firebase realtime database"],
+    stack: ["tailwindcss", "react.js", "firebase", "firebase realtime database", "cloudinary api"],
     desc: `An user-friendly feature-rich task management app built for smooth workflow and seamless productivity.`,
-    points: [
+    features: [
       `User-friendly dual mode task management dashboard`,
       `Feature-rich task management system including- priority flags, categorization, quick-reschedule, sub-task checklists, custom reminder, and commenting on task progress`,
       `Notification system based on user activity`,
@@ -178,9 +178,9 @@ _.projectDetails = [
   {
     name: "Awaaz",
     slug: "awaaz",
-    stack: ["tailwindcss", "react.js", "redux-toolkit", "firebase", "firebase realtime database"],
+    stack: ["tailwindcss", "react.js", "redux-toolkit", "firebase", "firebase realtime database", "cloudinary api"],
     desc: `An Instagram-inspired social media web application. Database designed with performance and scalability in mind.`,
-    points: [
+    features: [
       `Smooth interaction features including reactions, comments, replies, followers, following and blocking users`,
       `Custom algorithm for personalized newsfeed and explore page`,
       `Notification system based on user interaction`,
@@ -194,10 +194,30 @@ _.projectDetails = [
     slug: "cencia-skincare",
     stack: ["tailwindcss", "react.js", "redux-toolkit", "framer-motion"],
     desc: `An e-commerce website for a bootique skincare brand`,
-    points: [`User friendly attractive UI`, `Smooth cart management system`, `All device friendly responsive UI`],
+    features: [`User friendly attractive UI`, `Smooth cart management system`, `All device friendly responsive UI`],
     thumbnail: "/images/projects/cencia-thumb.png",
-    live: "hhttps://cencia-skincare.vercel.app/",
+    live: "https://cencia-skincare.vercel.app/",
     source: "https://github.com/ZakariaZack98/cencia_skincare.git",
+  },
+  {
+    name: `Real-time chatting app`,
+    slug: "firbase-chat",
+    stack: ["tailwindcss", "react.js", "firebase", "firebase realtime database", "cloudinary api"],
+    desc: `A full-stack realtime chatting web-application built with react.js & firebase.` ,
+    features: [`Smooth user interaction system for navigating tracks and playlist`, `Plays all audio format`, `Custom/favorite playlist creation`, `theme switching`],
+    thumbnail: "/images/projects/chat-thumb.png",
+    live: "https://zakariazack98.github.io/Music_Player/",
+    source: "https://github.com/ZakariaZack98/cit-chat-app.git",
+  },
+  {
+    name: `Music Player`,
+    slug: "music-player",
+    stack: ["bootstrap", "vanilla JS", "jsmediatag"],
+    desc: `A smartphone-like music player web-app`,
+    features: [`Smooth user interaction system for navigating tracks and playlist`, `Plays all audio format`, `Custom/favorite playlist creation`, `theme switching`],
+    thumbnail: "/images/projects/music-player-thumb.png",
+    live: "https://zakariazack98.github.io/Music_Player/",
+    source: "https://github.com/ZakariaZack98/Music_Player.git",
   },
 ];
 
@@ -257,7 +277,7 @@ _.footerLinkGroup = [
       },
       {
         label: "Facebook",
-        path: "https://fb.com/sadeemdzakaria",
+        path: "https://www.facebook.com/profile.php?id=61558974110494",
       }
     ],
   }

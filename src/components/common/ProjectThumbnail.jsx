@@ -5,7 +5,7 @@ import { FiArrowUpRight } from "react-icons/fi";
 const ProjectThumbnail = ({ name, img, stack, slug }) => {
   return (
     <div className="bg-[#1A1A1A] rounded-xl p-7 flex flex-col gap-y-5">
-      <picture className="h-100 aspect-video overflow-hidden rounded-lg">
+      <picture className="md:h-100 h-fit md:aspect-video aspect-square overflow-hidden rounded-lg">
         <img
           src={img}
           alt={`${name} mockup thumbnail`}
