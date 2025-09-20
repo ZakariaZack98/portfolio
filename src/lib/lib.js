@@ -190,7 +190,7 @@ _.projectDetails = [
       `Working on real time chatting features`
     ],
     thumbnail: "/images/projects/awaaz-thumb.png",
-    live: "hhttps://awaaz-nine.vercel.app/",
+    live: "https://awaaz-nine.vercel.app/",
     source: "https://github.com/ZakariaZack98/Awaaz.git",
   },
   {
