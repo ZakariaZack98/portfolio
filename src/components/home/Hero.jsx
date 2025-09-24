@@ -31,7 +31,7 @@ const Hero = () => {
             <Link href={"/projects"}>
               <GradientButton label={"See my work >"} />
             </Link>
-            <Link href={"/CV.pdf"} download={"CV.pdf"} target="_blank" rel="noopener norefferer">
+            <Link href={"/Sadee_Muhammad_Zakaria-Web_Developer.pdf"} download={"Sadee_Muhammad_Zakaria-Web_Developer.pdf"} target="_blank" rel="noopener norefferer">
               <SoftButton label={<span><FaDownload className="inline me-2"/>Download Resume</span>} />
             </Link>
           </div>
