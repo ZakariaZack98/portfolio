@@ -27,7 +27,7 @@ const Hero = () => {
             data-aos-duration="500">
             I create intuitive, visually stunning and highly functional web applications.
           </p>
-          <div className="btnGrp flex gap-x-5" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="500">
+          <div className="btnGrp flex justify-center items-center flex-wrap md:flex-nowrap gap-5" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="500">
             <Link href={"/projects"}>
               <GradientButton label={"See my work >"} />
             </Link>

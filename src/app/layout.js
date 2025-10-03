@@ -18,7 +18,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={`${ralwayFont.className} antialiased `}>
         <ClientAOSProvider>
-          <div className=" text-white">
+          <div className=" text-white w-screen overflow-x-hidden">
             <Navbar />
             {children}
             <Footer />
